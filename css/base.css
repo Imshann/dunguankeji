@@ -1,0 +1,33 @@
+/*重置样式 开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+/*重置样式 结束*/
+/*通用样式 开始*/
+.last{border:none!important;}
+.clear{clear:both;}
+.hidden{display:none;}
+/*通用样式 结束*/
+
+/*布局样式 开始*/
+#container{margin: auto;width: 1280px;}
+#header{width:1280px;height:125px;}
+#main{width:1280px;height:2673px;background: #1f106d;}
+#footer{width: 1280px;height: 541px;background: #3ee6a9;}
+/*布局样式 结束*/
+/*头部样式 开始*/
+#header .left{float: left;margin: 57px 0 0 179px;width: 360px;height:125px;}
+#header .right{float: left;width:741px;height:125px;}
+#header .right .ul-1{width: 739px;height: 70px;margin: 16px 0 0 257px;}
+#header .right .ul-1 li{float: left;border-right:1px solid #c2c1c1; color:#c2c1c1;font-size: 12px;padding:0 3px 0 3px;}
+#header .right .ul-1 .border-no{border: none;}
+#header .right .ul-1 a{color:#C2C1C1;}
+#header .right .ul-1 a:hover{color:#f64f5b;}
+#header .right .ul-2 {float: left;width: 739px;height:55px;}
+#header .right .ul-2 li{float: left; padding:0 12px 5px 13px;color:#7a7878;font-size: 14px;font-weight: 700;}
+#header .right .ul-2 .margin-no{margin-left:0;}
+#header .right .ul-2 a{color:#7a7878;}
+#header .right .ul-2 a:hover{color:#f64f5b;}
+#header .right .ul-2 li:hover{border-bottom: 4px solid #1abc9c;}
+
+/*头部样式 结束*/
